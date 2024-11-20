@@ -299,7 +299,7 @@ hr,
 }
 hr::before,
 .separator::before {
-  content: "***";
+/*  content: "***";*/
   color: var(--dark);
   font-size: 1.265625rem;
   font-variation-settings: "wght" var(--font-weight-bold);
@@ -1192,12 +1192,13 @@ textarea {
   text-align: center;
   top: 0;
 }
-.hero:after {
+hr,
+.separator, .hero:after {
   border-bottom: 1px solid var(--light);
   content: "";
   display: block;
   margin: 2.1333333333rem auto 0;
-  width: 15%;
+  width: 25%;
 }
 .hero > p {
   color: var(--gray-1);
